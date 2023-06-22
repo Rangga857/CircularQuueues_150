@@ -50,6 +50,8 @@ public:
 			REAR = -1;
 		}
 		//jika elemen yang dihapus berada di posisi terakhir array, kembali ke awal array
-		else (FRONT == max - 1)
+		else {
+			if (FRONT == max - 1)
+		}
 	}
 }

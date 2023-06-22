@@ -53,8 +53,12 @@ public:
 		else {
 			if (FRONT == max - 1)
 				FRONT = 0;
-			else 
-				FRONT = FRONT + 1
+			else
+				FRONT = FRONT + 1;
 		}
+	}
+	void display() {
+		int FRONT_position = FRONT;
+
 	}
 }

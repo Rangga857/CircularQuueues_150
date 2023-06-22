@@ -52,6 +52,7 @@ public:
 		//jika elemen yang dihapus berada di posisi terakhir array, kembali ke awal array
 		else {
 			if (FRONT == max - 1)
+				FRONT = 0;
 		}
 	}
 }

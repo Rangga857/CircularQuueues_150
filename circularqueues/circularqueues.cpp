@@ -71,7 +71,9 @@ public:
 
 		// jika FRONT_position > REAR_position, iterasi dari FRONT hingga akhir array
 		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
 
+			}
 		}
 	}
 }

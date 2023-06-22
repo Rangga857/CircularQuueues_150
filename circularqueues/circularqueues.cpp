@@ -7,5 +7,10 @@ class Queues {
 public:
 	Queues() {
 		front = -1;
+		rear = -1;
+	}
+
+	void insert() {
+		int num;
 
 	}
